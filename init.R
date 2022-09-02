@@ -3,7 +3,15 @@
 # Example R code to install packages if not already installed
 #
 
-my_packages = c("ggplot2")
+my_packages <- c(
+  "shiny",
+  "shinythemes",
+  "ggplot2",
+  "Hmisc",
+  "reshape2",
+  "dplyr",
+  "ggpubr"
+  )
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
