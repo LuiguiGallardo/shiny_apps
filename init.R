@@ -10,7 +10,8 @@ my_packages <- c(
   "Hmisc",
   "reshape2",
   "dplyr",
-  "ggpubr"
+  "ggpubr",
+  "svglite"
   )
 
 install_if_missing = function(p) {

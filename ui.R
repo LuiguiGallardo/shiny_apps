@@ -38,13 +38,13 @@ fluidPage(
                              "Coefficient value (Person's r or Spearman's rho)",
                              min = 0,
                              max = 1,
-                             value = 0),
+                             value = 0.6),
                  
                  sliderInput("pvalue",
                              "p-value",
                              min = 0,
                              max = 1,
-                             value = 0,
+                             value = 0.05,
                              step = 0.001),
                ), # Sidebar panel 2
                mainPanel(
@@ -95,7 +95,6 @@ fluidPage(
                  
                  downloadButton("downloadPlot",
                                 "Download plot"),
-                 
                  
                ), # Sidebar panel 2
                mainPanel(
