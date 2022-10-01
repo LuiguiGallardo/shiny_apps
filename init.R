@@ -11,7 +11,8 @@ my_packages <- c(
   "reshape2",
   "dplyr",
   "ggpubr",
-  "svglite"
+  "svglite",
+  "markdown"
   )
 
 install_if_missing = function(p) {

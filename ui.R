@@ -4,12 +4,18 @@
 
 library(shiny)
 library(shinythemes)
+library(markdown)
 
 # Define UI for application that draws a histogram
 fluidPage(
   theme = shinytheme("flatly"),
   navbarPage(
     "Pearson and Spearman correlation",
+    # Instructions
+    tabPanel("Instructions",
+      mainPanel(
+               includeMarkdown("instructions.md"))
+        ),
     # Panel 1
     tabPanel("Input table",
              sidebarLayout(

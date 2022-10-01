@@ -9,6 +9,7 @@ library(Hmisc)
 library(reshape2)
 library(dplyr)
 library(ggpubr)
+library(markdown)
 
 # Define server logic required to draw a histogram
 shinyServer(
