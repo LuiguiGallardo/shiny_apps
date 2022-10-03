@@ -2,11 +2,8 @@
 
 To use this Shiny app, you must upload a file with the following format separted by tabs:
 
-| sample | group | var1 | var2 |
-| ------ | ----- | ---- | ---- |
-| a1     | A     | 0.12 | 0.4  |
-| a1     | A     | 0.12 | 0.31 |
-| a2     | A     | 0.12 | 0.22 |
-| b1     | B     | 0.12 | 0.13 |
-| b2     | B     | 0.12 | 0.04 |
-| b3     | B     | 0.12 | 0.05 |
+!["example_table"](./example_table.png)
+
+You can select the method for the correlation, Spearman or Pearson. In the 'Results table' tab, you will be able to observe all the significant correlations according to the p-value cutoff that you select.
+
+Finally, in the 'Plots' tab, you can select the correlation of your interest to create an individual plot and download it in SVG format.
