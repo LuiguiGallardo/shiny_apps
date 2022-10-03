@@ -4,7 +4,7 @@ To use this Shiny app, you must upload a file with the following format separted
 
 !["example_table"](./example_table.png)
 
-Here is an example [table](https://github.com/LuiguiGallardo/shiny_correlation_lmgb/blob/main/example_table.tsv) (you can download it and test the application).
+Here is an example [table](https://raw.githubusercontent.com/LuiguiGallardo/shiny_correlation_lmgb/main/example_table.tsv) (you can download it and test the application).
 
 After, you can select the method for the correlation (Pearson or Spearman). In the 'Results table' tab, you will be able to observe all the significant correlations according to the p-value cutoff that you select.
 
