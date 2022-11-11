@@ -1,0 +1,11 @@
+name: shiny_correlation_lmgb
+title:
+username:
+account: lgallardo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7601562
+bundleId: 6504123
+url: https://lgallardo.shinyapps.io/shiny_correlation_lmgb/
+when: 1668198473.15161
+lastSyncTime: 1668198473.15162
